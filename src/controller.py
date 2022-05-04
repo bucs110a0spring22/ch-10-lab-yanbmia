@@ -4,6 +4,11 @@ import random
 from src import hero
 from src import enemy
 
+#from pygame import mixer
+from replit import audio
+#mixer.init()
+#mixer.music.load("rickrolling-audio.mp3")
+
 
 class Controller:
     def __init__(self, width=640, height=480):
@@ -76,7 +81,10 @@ class Controller:
         message = myfont.render('Game Over', False, (0, 0, 0))
         self.screen.blit(message, (self.width / 2, self.height / 2))
         pygame.display.flip()
+        source = audio.play_file("rickrolling-audio.mp3")
+      
         while True:
+            pass
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     sys.exit()

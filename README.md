@@ -8,20 +8,21 @@
 Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+Turtle fighting 3 enemies game.  
 #### Unique Feature
- < Describe the unique feature you added >
+Added a sound when game ends.
 
 ## GRACE DAYS
-Grace days used for this assignment: < # >
+Grace days used for this assignment: < 2 >
 
-Grace days remaining: < # >/5
+Grace days remaining: < 1 >/5
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+N/A
 
 ## REFERENCES:
- < List any outside resources used >
+How to Play Sounds on Replit!:
+https://www.youtube.com/watch?v=CuIV2-ivg0U
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+The audio sound was supposed to go in the source folder but I didn't know how to import/from the audio file.
